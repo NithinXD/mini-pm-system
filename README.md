@@ -9,14 +9,11 @@ A full-stack project management system with Django backend (GraphQL API) and Rea
 - **Task Management**: Task board with drag-and-drop functionality
 - **Real-time Updates**: WebSocket-based subscriptions for live updates
 - **Authentication**: JWT-based authentication system
-- **Advanced Filtering**: Search and filter projects/tasks
-- **Responsive Design**: Mobile-first approach with Tailwind CSS
-- **Accessibility**: WCAG 2.1 compliant
 
 ## Tech Stack
 
 ### Backend
-- Django 4.2.7
+- Django
 - GraphQL (Graphene-Django)
 - PostgreSQL
 - Redis (for Channels)
@@ -24,7 +21,7 @@ A full-stack project management system with Django backend (GraphQL API) and Rea
 - JWT Authentication
 
 ### Frontend
-- React 18 with TypeScript
+- React with TypeScript
 - Apollo Client (GraphQL)
 - Tailwind CSS
 - Framer Motion (animations)
@@ -34,8 +31,8 @@ A full-stack project management system with Django backend (GraphQL API) and Rea
 ## Setup Instructions
 
 ### Prerequisites
-- Python 3.10+
-- Node.js 18+
+- Python 3.12
+- Node.js 24
 - PostgreSQL
 - Redis
 
